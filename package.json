@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-default-anonymous-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "name the default exported anonymous function",
   "keywords": [
     "babel-plugin",
