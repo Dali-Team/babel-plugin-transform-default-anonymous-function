@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-transform-default-anonymous-function should work with arrow function with short form 1`] = `
+"export default function Transformed_default_name_() {
+  return null;
+}"
+`;
+
+exports[`babel-plugin-transform-default-anonymous-function should work with high order component 1`] = `
+"const Component = () => null;
+
+const Transformed_default_name_ = memo(Component);
+export default Transformed_default_name_;"
+`;
+
+exports[`babel-plugin-transform-default-anonymous-function should work with no conflict name 1`] = `
+"const Transformed_default_name_ = '1';
+export default function Transformed_default_name_Transformed_default_name__0() {}"
+`;
+
+exports[`babel-plugin-transform-default-anonymous-function should work with simple anonymous function 1`] = `
+"export default function Transformed_default_name_() {
+  return null;
+}
+;"
+`;
+
+exports[`babel-plugin-transform-default-anonymous-function should work with simple arrow function 1`] = `"export default function Transformed_default_name_(a, b, c) {}"`;
