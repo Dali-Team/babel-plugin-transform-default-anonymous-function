@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "name the default exported anonymous function",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/Dali-Team/babel-plugin-transform-default-anonymous-function",
   "author": "Cheng Liu",
   "license": "MIT",
